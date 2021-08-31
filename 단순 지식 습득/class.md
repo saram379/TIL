@@ -35,18 +35,14 @@ MDN web docs, Classes, 검색일:210830 https://developer.mozilla.org/ko/docs/We
       var 인스턴스 = new 클래스이름();
       
     3) 프로토타입 방식
-      function 클래스이름() {
-        this.프로퍼티1 = 초기값;
-        this.프로퍼티2 = 초기값;
-      }
-
-      클래스이름.prototype.메서드1 = function() {
-
-      }
-
-      클래스이름.prototype.메서드2 = function() {
-
-      }
+        function 클래스이름() {
+          this.프로퍼티1 = 초기값;
+          this.프로퍼티2 = 초기값;
+        }
+        클래스이름.prototype.메서드1 = function() {
+        }
+        클래스이름.prototype.메서드2 = function() {
+        }
       
 *클래스 인스턴스*
  var 인스턴스 = new 클래스 이름():
