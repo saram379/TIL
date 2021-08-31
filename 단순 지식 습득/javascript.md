@@ -67,4 +67,5 @@ MDN web docs, Classes, 검색일:210830 https://developer.mozilla.org/ko/docs/We
 javascript 클래스 소개, 검색일: 210831, https://infoscis.github.io/2018/02/13/ecmascript-6-introducing-javascript-classes/
 자바스크립트는 원래 클래스 지원을 하지 않았다!
 어렵다아
+클래스(class)는 객체 지향 프로그래밍(OOP)에서 특정 객체를 생성하기 위해 변수와 메소드를 정의하는 일종의 틀이다. 객체를 정의 하기 위한 상태(멤버변수)와 메서드(함수)로 구성된다
 
