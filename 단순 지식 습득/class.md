@@ -47,6 +47,7 @@ MDN web docs, Classes, 검색일:210830 https://developer.mozilla.org/ko/docs/We
       클래스이름.prototype.메서드2 = function() {
 
       }
+      
 *클래스 인스턴스*
  var 인스턴스 = new 클래스 이름():
  으로 설정함
