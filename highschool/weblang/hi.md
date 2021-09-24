@@ -1,0 +1,3 @@
+boostcouse를 이용해 js 공부중...
+-9/23 quiz2까지 해결함
+9/24 html, js, css 정보글 만들기(a, day/night포함)
