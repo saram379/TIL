@@ -4,6 +4,7 @@ RETRY IT!
 first, design what todo
 
 second, input matrix and present on html page
+  by using "slice", I can express all of the matrix
 
 third, calculate matrix(multiply and plus)
   Watch out, there are fixed matrix form
