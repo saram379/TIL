@@ -16,7 +16,7 @@ const printMatrix = () => {
 }
 **/
 
-m2 = [[1,2],[4,5]]
+m2 = [[1,2],[4,5]]//행렬을 입력받음
 m1 = [[2,3],[5,6]]
 var m1row=m1.length; var m1col=m1[0].length;
 var m2row=m2.length; var m2col=m2[0].length;
@@ -41,9 +41,9 @@ const mulmatrix = (m1,m2) => {
         for(let r=0; r<m1row; r++){
             mul[r]=[];
             for(let c=0; c<m2col; c++){
-                mul[r][c]=[];
+                mul[r][c]=0;
                 for(let i=0; i<m1col; i++){
-                    mul[r][c]=m1[r][i]*m2[i][c];
+                    mul[r][c]+=m1[r][i]*m2[i][c];
                 }
             }
         }
