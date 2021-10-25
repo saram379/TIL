@@ -1,5 +1,6 @@
 '''
-RA: 적경
+RA: 적경(Right ascension)
+declination: 적위
 con_name: 별자리 이름
 ag_ 붙은건 각도를 의미
 15를 곱하는것은 1h=15도 이기 때문
@@ -11,39 +12,51 @@ constellation = int(input("별자리의 번호를 입력해주세요\n1. 물고�
 if constellation == 1:
     con_name = '물고기자리'
     RA = 0.85
+    declination = 15.48
 elif constellation == 2:
     con_name = '양자리'
     RA = 2.66
+    declination = 22.57
 elif constellation == 3:
     con_name = '황소자리'
     RA = 4.27
+    declination = 17.33
 elif constellation == 4:
     con_name = '쌍둥이자리'
     RA = 7.19
+    declination = 24.82
 elif constellation == 5:
     con_name = '게자리'
     RA = 8.69
+    declination = 23.57
 elif constellation == 6:
     con_name = '사자자리'
     RA = 10.66
+    declination = 7
 elif constellation == 7:
     con_name = '처녀자리'
     RA = 13.21
+    declination = -3.52
 elif constellation == 8:
     con_name = '천칭자리'
     RA = 15.21
+    declination = 15.55
 elif constellation == 9:
     con_name = '전갈자리'
     RA = 16.99
+    declination = 35.33
 elif constellation == 10:
     con_name = '궁수자리'
     RA = 19.11
+    declination = 29.88
 elif constellation == 11:
     con_name = '염소자리'
     RA = 20.50
+    declination = 19.35
 elif constellation == 12:
     con_name = '물병자리'
     RA = 22.71
+    declination = 10.47
 else:
     print("올바른 번호를 입력해주세요")
 

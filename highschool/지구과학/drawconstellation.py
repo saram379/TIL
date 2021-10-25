@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 circle_center=(0,0)
 circle_radius=7.5
-star_center=(3,3)
+star_center=(3,3)#나중에 식을 집어 넣어야함
 star_radius=7
 #fc(색 채우기): 흰색, ec(둘레): 파란색
 celestial=plt.Circle(circle_center, circle_radius, fc='b',ec='b')
